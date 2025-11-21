@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Bikoze Jonathan",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://pbs.twimg.com/profile_images/1688990342413004800/X_uJ9VPH.jpg",
+      "sha256": "32bebda33a1792d2a575a8f0ecc18ab8c65cba4762e79996d6168117f82747f4"
+    },
+    "motivations": "I want to be a DRep because i believe in decentralized governance as a powerful tool to empower communities and ensure fair decision-making; I believe also in transparency and accountability where every vote and action must reflect the values and needs of the Cardano ecosystem. I believe too in inclusion, making sure that underrepresented voices, especially from emerging regions are heard and considered. i want to achieve as a DRep : Represent ADA holders whith integrity by making decisions based on community  feedback and long-term impact; Support proposals that drive innovation, sustainability, and social good within the Cardano ecosystem",
+    "objectives": "I want to be a DRep because I believe in the power of decentralized governance to shape a fairer and more inclusive future and I want to be part of that transformation, not just as a voter, but as a representative who listens, learns, and acts with integrity.",
+    "paymentAddress": "addr1q8vghpxzlrwln8fgp8qnvzucjhw8z5mkavshphlt8fsajkma8n8vt326rsc7d2wdmf73cxrrsxnc38e0xppk2z39p3aszrc48p",
+    "qualifications": "Community Reviewer in Project Catalyst since Fund 10 : I’ve actively reviewed proposals, assessed their feasibility and impact, and contributed to the quality of community driven funding decisions; Governance Training and Meetups with Goma Stake Pool : I’ve participated in multiple workshops and discussions focused on decentralized governance, CIP-1694, and the Voltaire era, deepening my understanding of Cardano’s governance framework. Strong knowledge of Cardano ecosystem : Through continuous learning and engagement, I’ve built a solid foundation in blockchain principles, governance models, and community dynamics. Commitment to inclusive and ethical governance : I value transparency, fairness, and the representation of underrepresented voices in decision-making",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X, Linkedln, Instagram and facebook",
+        "uri": "https://linktr.ee/bikoze"
+      }
+    ]
+  }
+}
